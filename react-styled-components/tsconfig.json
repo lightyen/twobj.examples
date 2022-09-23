@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "webworker"
+    ],
+    "types": [
+      "vite/client",
+      "@emotion/react/types/css-prop",
+      "babel-plugin-twobj/types/styled-components"
+    ],
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ],
+      "assets/*": [
+        "./src/assets/*"
+      ]
+    }
+  }
+}

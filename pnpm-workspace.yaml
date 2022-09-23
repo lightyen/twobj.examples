@@ -1,0 +1,6 @@
+packages:
+  - "node"
+  - "react-emotion"
+  - "react-linaria"
+  - "react-styled-components"
+  - "next-app"

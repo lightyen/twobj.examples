@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "./node"
+		},
+		{
+			"path": "./next-app"
+		},
+		{
+			"path": "./react-emotion"
+		},
+		{
+			"path": "./react-styled-components"
+		},
+		{
+			"path": "./react-linaria"
+		},
+	]
+}
