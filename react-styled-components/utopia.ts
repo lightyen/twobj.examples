@@ -1,14 +1,6 @@
 // https://utopia.fyi/type/calculator/?c=480,14,1.125,1300,16,1.125,10,3,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l
 
-type FontSizeValueDetail = [
-	fontSize: unknown,
-	options: {
-		lineHeight?: unknown
-		letterSpacing?: unknown
-		fontWeight?: unknown
-	},
-]
-type FontSizeValue = unknown | [fontSize: unknown, lineHeight: unknown] | FontSizeValueDetail
+import type { FontSizeValue } from "twobj"
 
 export default function utopia(
 	config: Array<[string, number, number, number]>,

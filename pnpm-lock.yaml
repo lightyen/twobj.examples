@@ -9,28 +9,28 @@ importers:
       '@emotion/react': 11.10.4
       '@emotion/server': 11.10.0
       '@emotion/styled': 11.10.4
-      babel-plugin-twobj: 2.0.2
+      babel-plugin-twobj: 2.0.4
       next: 12.3.1
       react: 18.2.0
       react-dom: 18.2.0
-      twobj: 2.1.4
+      twobj: 2.2.2
     dependencies:
       '@babel/core': 7.19.1
       '@emotion/css': 11.10.0_@babel+core@7.19.1
       '@emotion/react': 11.10.4_3toe27fv7etiytxb5kxc7fxaw4
       '@emotion/server': 11.10.0_@emotion+css@11.10.0
       '@emotion/styled': 11.10.4_k7zxc7pbeddco7wpd4ecxszsyi
-      babel-plugin-twobj: 2.0.2_twobj@2.1.4
+      babel-plugin-twobj: 2.0.4_twobj@2.2.2
       next: 12.3.1_ir3quccc6i62x6qn6jjhyjjiey
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      twobj: 2.1.4
+      twobj: 2.2.2
 
   node:
     specifiers:
-      twobj: 2.1.4
+      twobj: 2.2.2
     dependencies:
-      twobj: 2.1.4
+      twobj: 2.2.2
 
   react-emotion:
     specifiers:
@@ -50,7 +50,7 @@ importers:
       '@typescript-eslint/parser': 5.38.0
       '@vitejs/plugin-react': 2.1.0
       axios: 0.27.2
-      babel-plugin-twobj: 2.0.2
+      babel-plugin-twobj: 2.0.4
       eslint: 8.23.1
       eslint-plugin-react: 7.31.8
       eslint-plugin-react-hooks: 4.6.0
@@ -63,7 +63,7 @@ importers:
       redux: 4.2.0
       redux-saga: 1.2.1
       rollup: 2.79.1
-      twobj: 2.1.4
+      twobj: 2.2.2
       typescript: 4.8.3
       vite: 3.1.3
       vite-plugin-eslint: 1.8.1
@@ -77,12 +77,12 @@ importers:
       '@reduxjs/toolkit': 1.8.5_kuo2ie247izvzll3jejufdtq3q
       '@tanstack/react-query': 4.3.9_biqbaboplfbrettd7655fr4n2y
       axios: 0.27.2
-      babel-plugin-twobj: 2.0.2_twobj@2.1.4
+      babel-plugin-twobj: 2.0.4_twobj@2.2.2
       react-intl: 6.1.1_n4upredruleo7vrbwztywbpoxq
       react-redux: 8.0.4_yfr4m6wk75wdra335rld4tkrbu
       redux: 4.2.0
       redux-saga: 1.2.1
-      twobj: 2.1.4
+      twobj: 2.2.2
     devDependencies:
       '@rollup/plugin-yaml': 3.1.0_rollup@2.79.1
       '@swc/core': 1.3.2
@@ -136,7 +136,7 @@ importers:
       autoprefixer: ^10.4.8
       axios: 0.27.2
       babel-loader: 8.2.5
-      babel-plugin-twobj: 2.0.2
+      babel-plugin-twobj: 2.0.4
       cross-env: 7.0.3
       css-loader: 6.7.1
       css-minimizer-webpack-plugin: 4.1.0
@@ -166,7 +166,7 @@ importers:
       tiny-glob: 0.2.9
       ts-paths-resolve-plugin: 5.8.0
       tslib: ^2.4.0
-      twobj: 2.1.4
+      twobj: 2.2.2
       typescript: 4.8.3
       webpack: 5.74.0
       webpack-bundle-analyzer: 4.6.1
@@ -183,12 +183,12 @@ importers:
       '@reduxjs/toolkit': 1.8.5_kuo2ie247izvzll3jejufdtq3q
       '@tanstack/react-query': 4.3.9_biqbaboplfbrettd7655fr4n2y
       axios: 0.27.2
-      babel-plugin-twobj: 2.0.2_twobj@2.1.4
+      babel-plugin-twobj: 2.0.4_twobj@2.2.2
       react-intl: 6.1.1_n4upredruleo7vrbwztywbpoxq
       react-redux: 8.0.4_yfr4m6wk75wdra335rld4tkrbu
       redux: 4.2.0
       redux-saga: 1.2.1
-      twobj: 2.1.4
+      twobj: 2.2.2
     devDependencies:
       '@babel/core': 7.19.1
       '@babel/plugin-transform-runtime': 7.19.1_@babel+core@7.19.1
@@ -261,7 +261,7 @@ importers:
       '@vitejs/plugin-react': 2.1.0
       axios: 0.27.2
       babel-plugin-styled-components: 2.0.7
-      babel-plugin-twobj: 2.0.2
+      babel-plugin-twobj: 2.0.4
       eslint: 8.23.1
       eslint-plugin-react: 7.31.8
       eslint-plugin-react-hooks: 4.6.0
@@ -276,7 +276,7 @@ importers:
       redux-saga: 1.2.1
       rollup: 2.79.1
       styled-components: 5.3.5
-      twobj: 2.1.4
+      twobj: 2.2.2
       typescript: 4.8.3
       vite: 3.1.3
       vite-plugin-eslint: 1.8.1
@@ -289,14 +289,14 @@ importers:
       '@types/styled-components': 5.1.26
       axios: 0.27.2
       babel-plugin-styled-components: 2.0.7_styled-components@5.3.5
-      babel-plugin-twobj: 2.0.2_twobj@2.1.4
+      babel-plugin-twobj: 2.0.4_twobj@2.2.2
       react-intl: 6.1.1_n4upredruleo7vrbwztywbpoxq
       react-is: 18.2.0
       react-redux: 8.0.4_yfr4m6wk75wdra335rld4tkrbu
       redux: 4.2.0
       redux-saga: 1.2.1
       styled-components: 5.3.5_7i5myeigehqah43i5u7wbekgba
-      twobj: 2.1.4
+      twobj: 2.2.2
     devDependencies:
       '@rollup/plugin-yaml': 3.1.0_rollup@2.79.1
       '@swc/core': 1.3.2
@@ -3805,12 +3805,12 @@ packages:
     resolution: {integrity: sha512-eqj0hVcJUR57/Ug2zE1Yswsw4LhuqqHhD+8v120T1cl3kjg76QwtyBrdIk4WVwK+lAhBJVYCd/v+4nc4y+8JsA==}
     dev: false
 
-  /babel-plugin-twobj/2.0.2_twobj@2.1.4:
-    resolution: {integrity: sha512-JgOMdVxGXhhegEcIr2TxECFVOA1yCoalHRylfkn3Voqv/C7qSvSQgSh35MDXAA6k4VfqKyw7p4/kTP+qswyuLA==}
+  /babel-plugin-twobj/2.0.4_twobj@2.2.2:
+    resolution: {integrity: sha512-dqe9nV5sq0M4w5BmH+WoHMDhRJv9uUxvjLiZOJoKX5g4go33Vl5H8UccBuu4qK7MY8lZTXHO3SE1eBx8qsWyTA==}
     peerDependencies:
       twobj: '>= 2.0.0 < 3'
     dependencies:
-      twobj: 2.1.4
+      twobj: 2.2.2
     dev: false
 
   /babel-preset-current-node-syntax/1.0.1_@babel+core@7.19.1:
@@ -8604,8 +8604,8 @@ packages:
       typescript: 4.8.3
     dev: true
 
-  /twobj/2.1.4:
-    resolution: {integrity: sha512-efq4Aksqive3KJKa7ScBn5sqwQi/+HXPwnDAxGKq+0q/rRF1LJtb7ty1dPq2DkqfHhxzrMevh2Z5xev1jLsskg==}
+  /twobj/2.2.2:
+    resolution: {integrity: sha512-w5qK6tFatNPoTrumRxOADyWGZh5mN1aeQQRRWfHcxNdDTSb5NFyiueDCTlIEYKEpsL3cbc4Y+IfO0ZpSLxfuoA==}
     dev: false
 
   /type-check/0.4.0:
