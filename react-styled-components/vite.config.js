@@ -14,7 +14,7 @@ export default defineConfig({
 		tsConfigPaths(),
 		react({
 			babel: {
-				plugins: [["twobj", { tailwindConfig }], "styled-components"],
+				plugins: [["twobj", { tailwindConfig, throwError: true }], "styled-components"],
 			},
 		}),
 	],

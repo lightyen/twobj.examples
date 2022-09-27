@@ -37,14 +37,14 @@
     "@types/styled-components": "5.1.26",
     "axios": "0.27.2",
     "babel-plugin-styled-components": "2.0.7",
-    "babel-plugin-twobj": "2.0.4",
+    "babel-plugin-twobj": "2.0.5",
     "react-intl": "6.1.1",
     "react-is": "18.2.0",
     "react-redux": "8.0.4",
     "redux": "4.2.0",
     "redux-saga": "1.2.1",
     "styled-components": "5.3.5",
-    "twobj": "2.2.2"
+    "twobj": "2.2.3"
   },
   "browserslist": [
     "defaults",

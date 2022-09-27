@@ -1,5 +1,5 @@
 import { css, CSSProperties } from "@linaria/core"
-import { tw } from "twobj"
+import { tw, wrap } from "twobj"
 
 export function printStyle(css: CSSProperties) {
 	console.log(JSON.stringify(css, null, 2))
@@ -33,7 +33,8 @@ export default function Layout() {
 			</div>
 			<div
 				className={css`
-					${tw`flex justify-center [& :first-of-type]:(text-cyan-500 sm:text-pink-500)`}
+					${tw`flex justify-center`}
+					${wrap`[& :first-of-type]:(hover: focus:):`(tw`text-cyan-500 sm:text-pink-500`)}
 				`}
 			>
 				<div>ABC</div>

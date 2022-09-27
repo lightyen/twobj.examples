@@ -7,7 +7,7 @@
   ],
   "plugins": [
     "@babel/plugin-transform-runtime",
-    ["twobj", { "debug": true }]
+    ["twobj", { "debug": true, "throwError": true }]
   ],
   "env": {
     "development": {

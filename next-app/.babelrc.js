@@ -10,5 +10,5 @@ module.exports = {
 			},
 		],
 	],
-	plugins: [["twobj", { tailwindConfig: require("./tailwind.config") }], "@emotion/babel-plugin"],
+	plugins: [["twobj", { tailwindConfig: require("./tailwind.config"), throwError: true }], "@emotion/babel-plugin"],
 }

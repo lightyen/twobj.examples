@@ -3,15 +3,10 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "webworker"
-    ],
+    "lib": ["esnext", "dom", "dom.iterable", "webworker"],
     "types": [
       "vite/client",
-      "@emotion/react/types/css-prop",
+      "styled-components/cssprop",
       "babel-plugin-twobj/types/styled-components"
     ],
     "jsx": "preserve",
@@ -23,12 +18,8 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "paths": {
-      "~/*": [
-        "./src/*"
-      ],
-      "assets/*": [
-        "./src/assets/*"
-      ]
+      "~/*": ["./src/*"],
+      "assets/*": ["./src/assets/*"]
     }
   }
 }
