@@ -36,7 +36,7 @@ const config: Configuration = {
 	plugins: [
 		new ForkTsCheckerPlugin({
 			typescript: {
-				configFile: path.resolve(__dirname, "../src/tsconfig.json"),
+				configFile: path.resolve(__dirname, "../tsconfig.json"),
 			},
 		}),
 		new ESLintPlugin({ context: path.resolve(__dirname, "../src"), extensions: ["js", "jsx", "ts", "tsx"] }),
