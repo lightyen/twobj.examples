@@ -59,4 +59,4 @@ const ctx = createContext(
 	}),
 )
 
-console.log(ctx.getColorClasses())
+console.log(ctx.getColorUtilities())

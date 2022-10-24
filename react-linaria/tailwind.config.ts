@@ -1,13 +1,8 @@
-import daisyui from "daisyui"
 import debug from "tailwindcss-debug-screens"
 
 export default {
-	daisyui: {
-		logs: false,
-	},
 	plugins: [
 		debug,
-		daisyui,
 		function ({ addVariant, addComponents }) {
 			addVariant("dropdown", ".dropdown &")
 			addVariant("dropdown-show", [

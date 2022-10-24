@@ -6,16 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "@babel/core": "7.19.3",
+    "@babel/core": "7.19.6",
     "@emotion/css": "11.10.0",
     "@emotion/react": "11.10.4",
     "@emotion/server": "11.10.0",
     "@emotion/styled": "11.10.4",
-    "babel-plugin-twobj": "2.0.5",
+    "babel-plugin-twobj": "2.0.6",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "twobj": "2.2.4"
+    "twobj": "2.3.2"
   },
   "browserslist": [
     "defaults",
