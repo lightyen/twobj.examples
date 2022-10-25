@@ -73,7 +73,7 @@
     "react-redux": "8.0.4",
     "redux": "4.2.0",
     "redux-saga": "1.2.1",
-    "twobj": "2.3.2"
+    "twobj": "2.3.3"
   },
   "prettier": {
     "semi": false,
