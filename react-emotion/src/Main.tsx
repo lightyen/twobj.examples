@@ -1,5 +1,6 @@
 import { FormattedMessage } from "react-intl"
 import { tw } from "twobj"
+import { Alert } from "./Alert"
 import { useAction } from "./store"
 import { LocaleType, supports } from "./store/i18n/languages"
 
@@ -12,7 +13,24 @@ export function Main() {
 			<Dropdown />
 			<DeviceMode />
 			<Language />
+			<Alert />
+			<AlertButton />
 		</div>
+	)
+}
+
+function AlertButton() {
+	const { alert } = useAction().app
+	return (
+		<button
+			type="button"
+			tw="py-1 px-3 bg-gray-400 hover:bg-gray-300"
+			onClick={() => {
+				alert({ text: "helloworld" })
+			}}
+		>
+			Open Alert
+		</button>
 	)
 }
 

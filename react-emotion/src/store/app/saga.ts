@@ -1,6 +1,7 @@
 import { eventChannel } from "redux-saga"
-import { fork, put, take } from "redux-saga/effects"
+import { fork, put, take, takeEvery } from "redux-saga/effects"
 import * as ac from "./action"
+import { alert, autoCloseAlert } from "./alert"
 import { ScreenType } from "./screen"
 
 const mediaQuery = (query: string) =>
@@ -42,4 +43,9 @@ export default function* app() {
 	yield screen(`screen and (min-width: 1280px) and (max-width: 1535px)`, "xl")
 	yield screen(`screen and (min-width: 1536px)`, "2xl")
 	yield onScreenUpdated()
+
+	yield takeEvery(ac.alert, function* ({ payload }) {
+		yield alert(payload)
+	})
+	yield autoCloseAlert()
 }
