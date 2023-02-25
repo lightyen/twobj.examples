@@ -1,6 +1,6 @@
 {
 	"type": "module",
 	"dependencies": {
-		"twobj": "2.3.5"
+		"twobj": "2.3.6"
 	}
 }

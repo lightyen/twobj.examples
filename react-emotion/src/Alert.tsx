@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion"
+import { FormattedMessage } from "react-intl"
 import { useSelect } from "./store"
 
 export function Alert() {
@@ -29,7 +30,7 @@ function AlertPopper() {
 				<ul tw="">
 					<li>type: {type}</li>
 					<li>id: {id}</li>
-					<li>text: {text}</li>
+					<li>text: {text || <FormattedMessage id={id} />}</li>
 				</ul>
 			</div>
 		</motion.div>
