@@ -1,6 +1,10 @@
 {
 	"type": "module",
+	"scripts": {
+		"doit": "pnpm update --interactive --latest",
+		"start": "node ."
+	},
 	"dependencies": {
-		"twobj": "2.5.1"
+		"twobj": "2.5.3"
 	}
 }
