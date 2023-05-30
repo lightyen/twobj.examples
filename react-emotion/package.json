@@ -44,7 +44,7 @@
     "react-redux": "8.0.5",
     "redux": "4.2.1",
     "redux-saga": "1.2.3",
-    "twobj": "2.5.3"
+    "twobj": "2.5.4"
   },
   "browserslist": [
     "defaults",

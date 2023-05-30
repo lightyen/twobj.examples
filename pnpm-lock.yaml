@@ -21,7 +21,7 @@ importers:
         version: 11.11.0(@emotion/react@11.11.0)(@types/react@18.2.6)(react@18.2.0)
       babel-plugin-twobj:
         specifier: 2.2.1
-        version: 2.2.1(twobj@2.5.3)
+        version: 2.2.1(twobj@2.5.4)
       next:
         specifier: 13.4.3
         version: 13.4.3(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)
@@ -32,14 +32,14 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       twobj:
-        specifier: 2.5.3
-        version: 2.5.3
+        specifier: 2.5.4
+        version: 2.5.4
 
   node:
     dependencies:
       twobj:
-        specifier: 2.5.3
-        version: 2.5.3
+        specifier: 2.5.4
+        version: 2.5.4
 
   react-emotion:
     dependencies:
@@ -66,7 +66,7 @@ importers:
         version: 1.4.0
       babel-plugin-twobj:
         specifier: 2.2.1
-        version: 2.2.1(twobj@2.5.3)
+        version: 2.2.1(twobj@2.5.4)
       framer-motion:
         specifier: 10.12.12
         version: 10.12.12(react-dom@18.2.0)(react@18.2.0)
@@ -83,8 +83,8 @@ importers:
         specifier: 1.2.3
         version: 1.2.3
       twobj:
-        specifier: 2.5.3
-        version: 2.5.3
+        specifier: 2.5.4
+        version: 2.5.4
     devDependencies:
       '@rollup/plugin-yaml':
         specifier: 4.1.0
@@ -175,7 +175,7 @@ importers:
         version: 2.1.3(styled-components@5.3.10)
       babel-plugin-twobj:
         specifier: 2.2.1
-        version: 2.2.1(twobj@2.5.3)
+        version: 2.2.1(twobj@2.5.4)
       react-intl:
         specifier: 6.4.2
         version: 6.4.2(react@18.2.0)(typescript@5.0.4)
@@ -195,8 +195,8 @@ importers:
         specifier: 5.3.10
         version: 5.3.10(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
       twobj:
-        specifier: 2.5.3
-        version: 2.5.3
+        specifier: 2.5.4
+        version: 2.5.4
     devDependencies:
       '@rollup/plugin-yaml':
         specifier: 4.1.0
@@ -2377,12 +2377,12 @@ packages:
     resolution: {integrity: sha512-qrPaCSo9c8RHNRHIotaufGbuOBN8rtdC4QrrFFc43vyWCCz7Kl7GL1PGaXtMGQZUXrkCjNEgxDfmAuAabr/rlw==}
     dev: false
 
-  /babel-plugin-twobj@2.2.1(twobj@2.5.3):
+  /babel-plugin-twobj@2.2.1(twobj@2.5.4):
     resolution: {integrity: sha512-JPZV4fAgHoxt2zRX2Q0WhGuoSgeyvrjuyTP246FMbSJ3/c9PNivKPVZovFNJIGnOarooNhEj0StCNkALx3sQow==}
     peerDependencies:
       twobj: '>= 2.4.0 < 3'
     dependencies:
-      twobj: 2.5.3
+      twobj: 2.5.4
     dev: false
 
   /babel-preset-current-node-syntax@1.0.1(@babel/core@7.21.8):
@@ -5064,8 +5064,8 @@ packages:
       typescript: 5.0.4
     dev: true
 
-  /twobj@2.5.3:
-    resolution: {integrity: sha512-18gKliV9jKRx+xw97FzTuI716zwaSFTaOiXyRwt0BuJAawvc0RjetlM+urBveI5Jjf2jQZirCg4RshStej18Hg==}
+  /twobj@2.5.4:
+    resolution: {integrity: sha512-eWkwqQ/AHXSw8cUa5eWQnQc+goGWFsRhfcSBU+sZZdStEz0mTc+1Xk2rkH5N+ZHwN3BNJ0I6f5jtwV+S9x44lA==}
     dev: false
 
   /type-check@0.4.0:
