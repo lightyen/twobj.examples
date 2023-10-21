@@ -2,12 +2,14 @@ import { configureStore } from "@reduxjs/toolkit"
 import createSagaMiddleware from "redux-saga"
 import rootSaga from "~/store/saga"
 import { app, AppStore } from "./app/reducer"
+import { data, DataStore } from "./data/reducer"
 import { intl, IntlStore } from "./i18n/reducer"
 
 // https://vitejs.dev/guide/env-and-mode.html#env-files
 
 interface RootStoreType {
 	app: AppStore
+	data: DataStore
 	intl: IntlStore
 }
 
@@ -18,6 +20,7 @@ export function makeStore() {
 	const store = configureStore({
 		reducer: {
 			app,
+			data,
 			intl,
 		},
 		middleware: [sagaMiddleware],

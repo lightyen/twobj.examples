@@ -8,7 +8,7 @@ import tailwindConfig from "./tailwind.config"
 
 export default defineConfig({
 	plugins: [
-		svg({ exportAsDefault: true }),
+		svg({ exportAsDefault: true, include: "**/*.svg" }),
 		yaml(),
 		eslint(),
 		tsConfigPaths(),

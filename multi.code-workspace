@@ -9,8 +9,5 @@
 		{
 			"path": "./react-emotion"
 		},
-		{
-			"path": "./react-styled-components"
-		},
 	]
 }

@@ -5,37 +5,28 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended",
-		"plugin:react/recommended",
-		"plugin:react-hooks/recommended"
+		"plugin:@typescript-eslint/recommended"
 	],
 	"parserOptions": {
 		"project": "./tsconfig.json"
 	},
+	"ignorePatterns": ["tailwind.config.js"],
 	"rules": {
 		"spaced-comment": "error",
 		"no-var": "error",
 		"no-extra-bind": "error",
-		"prefer-arrow-callback": "error",
-		"no-empty": [
-			"error",
-			{
-				"allowEmptyCatch": true
-			}
-		],
+		"no-mixed-spaces-and-tabs": ["warn", "smart-tabs"],
+		"no-empty": ["warn", { "allowEmptyCatch": true }],
 		"@typescript-eslint/no-unused-vars": [
-			"error",
-			{
-				"vars": "all",
-				"args": "none",
-				"ignoreRestSiblings": true,
-				"caughtErrors": "none"
-			}
+			"warn",
+			{ "vars": "all", "args": "none", "ignoreRestSiblings": true, "caughtErrors": "none" }
 		],
 		"@typescript-eslint/no-empty-interface": "off",
+		"@typescript-eslint/no-empty-function": "warn",
 		"@typescript-eslint/camelcase": "off",
 		"@typescript-eslint/explicit-function-return-type": "off",
-		"@typescript-eslint/no-var-requires": "warn",
+		"@typescript-eslint/array-type": ["error", { "default": "array" }],
+		"@typescript-eslint/no-var-requires": "off",
 		"@typescript-eslint/member-delimiter-style": [
 			"error",
 			{
@@ -53,25 +44,9 @@
 			"error",
 			{
 				"extendDefaults": true,
-				"types": {
-					"{}": false
-				}
+				"types": { "{}": false }
 			}
-		],
-		"react/no-unknown-property": ["error", { "ignore": ["tw", "css"] }],
-		"react/display-name": "off",
-		"react/prop-types": "off",
-		"react-hooks/rules-of-hooks": "error",
-		"react-hooks/exhaustive-deps": "error",
-		"react/jsx-uses-react": "off",
-		"react/react-in-jsx-scope": "off"
+		]
 	},
-	"settings": {
-		"react": {
-			"version": "detect"
-		}
-	},
-	"env": {
-		"browser": true
-	}
+	"env": { "browser": true, "node": true }
 }

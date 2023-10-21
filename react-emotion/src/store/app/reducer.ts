@@ -1,5 +1,4 @@
 import { createReducer } from "@reduxjs/toolkit"
-import { QueryClient } from "@tanstack/react-query"
 import * as ac from "./action"
 import { AlertType } from "./alert"
 import { getScreen, ScreenType } from "./screen"
@@ -13,7 +12,6 @@ function getMode(screen: ScreenType) {
 }
 
 export interface AppStore {
-	queryClient: QueryClient
 	screen: ScreenType
 	mode: "mobile" | "tablet" | "desktop"
 	alert: {
@@ -25,7 +23,6 @@ export interface AppStore {
 }
 
 const init: AppStore = {
-	queryClient: new QueryClient(),
 	screen,
 	mode: getMode(screen),
 	alert: {

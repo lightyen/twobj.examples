@@ -13,6 +13,6 @@ max_line_length = 120
 indent_size = 2
 
 [*.{json,yaml,yml,babelrc}]
-max_line_length = 80
+max_line_length = 120
 indent_style = space
 indent_size = 2

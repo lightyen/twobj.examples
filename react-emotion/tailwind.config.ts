@@ -35,4 +35,4 @@ export default {
 			},
 		},
 	},
-} as import("twobj").ConfigJS
+} satisfies import("twobj").ConfigJS
