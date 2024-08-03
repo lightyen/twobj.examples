@@ -12,7 +12,7 @@ import app from "./app/action"
 import data from "./data/action"
 import intl from "./i18n/action"
 
-export const AppStoreContext = createContext(null as unknown as ReactReduxContextValue<RootStore>)
+export const AppStoreContext = createContext<ReactReduxContextValue<RootStore> | null>(null)
 export const useStore = createStoreHook(AppStoreContext)
 export const useDispatch = createDispatchHook(AppStoreContext)
 export const useSelect: TypedUseSelectorHook<RootStore> = createSelectorHook(AppStoreContext)

@@ -24,3 +24,5 @@ npm-debug.log
 npm-debug.log.*
 thumbs.db
 stat.json
+stats.html
+.eslintcache
