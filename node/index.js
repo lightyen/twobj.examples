@@ -47,11 +47,9 @@ const ctx = createContext(
 					},
 					{ values: theme("colors.cyan") },
 				)
-				matchVariant({
-					tab(value) {
-						if (value == null) return "& > *"
-						return `&.${e(value ?? "")} > *`
-					},
+				matchVariant("tab", value => {
+					if (value == null) return "& > *"
+					return `&.${e(value ?? "")} > *`
 				})
 				matchVariant("screen", value => `@media (min-width: ${value ?? "0px"})`)
 			},
@@ -60,3 +58,5 @@ const ctx = createContext(
 )
 
 console.log(ctx.getColorUtilities())
+
+console.log(ctx.getArbitraryVariants())

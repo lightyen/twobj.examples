@@ -5,6 +5,6 @@
 		"start": "node ."
 	},
 	"dependencies": {
-		"twobj": "2.5.6"
+		"twobj": "2.6.0"
 	}
 }
