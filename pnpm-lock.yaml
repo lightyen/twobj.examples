@@ -69,8 +69,8 @@ importers:
         specifier: 1.6.2
         version: 1.6.2
       babel-plugin-twobj:
-        specifier: 2.4.0
-        version: 2.4.0(twobj@2.5.6)
+        specifier: 2.4.1
+        version: 2.4.1(twobj@2.6.0)
       framer-motion:
         specifier: 11.3.21
         version: 11.3.21(@emotion/is-prop-valid@1.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -87,8 +87,8 @@ importers:
         specifier: 1.3.0
         version: 1.3.0
       twobj:
-        specifier: 2.5.6
-        version: 2.5.6
+        specifier: 2.6.0
+        version: 2.6.0
     devDependencies:
       '@nabla/vite-plugin-eslint':
         specifier: 2.0.4
@@ -1420,6 +1420,11 @@ packages:
 
   babel-plugin-twobj@2.4.0:
     resolution: {integrity: sha512-M1H5u4tt1n4xBGaJJwpENSTNvAHCakei0AhDTiAu/BiTRdtaholb+RQwk0DRtdYgmB3dCfKIhdr6rvc/Q7EgHQ==}
+    peerDependencies:
+      twobj: '>= 2.5.6 < 3'
+
+  babel-plugin-twobj@2.4.1:
+    resolution: {integrity: sha512-Z4e9G89mFbXUY11/W1FZuYhv8dJylWeR4u4HQywrHN3Fa1pArfCQcMkvwc7PwmtbBbvpKLOz7KTAXAMSlC056Q==}
     peerDependencies:
       twobj: '>= 2.5.6 < 3'
 
@@ -3079,6 +3084,9 @@ packages:
 
   twobj@2.5.6:
     resolution: {integrity: sha512-u+hamSUCArfSC0m0BYYEYHBmLlBjqaXypKWN+hE/nFmNGU/lNNTTS/vHC1jFCzvlQbeb0KJID8OHF1WmEe7vBA==}
+
+  twobj@2.6.0:
+    resolution: {integrity: sha512-N6jMa0pSBgNO7NBKg1qwmqJuKMeSgdqdWlmuX2rClmfHLnFFHIfnb7OrF6TN88qUnHnmcsGVhGLn364vLlFelw==}
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -4778,6 +4786,10 @@ snapshots:
   babel-plugin-twobj@2.4.0(twobj@2.5.6):
     dependencies:
       twobj: 2.5.6
+
+  babel-plugin-twobj@2.4.1(twobj@2.6.0):
+    dependencies:
+      twobj: 2.6.0
 
   babel-preset-current-node-syntax@1.0.1(@babel/core@7.25.2):
     dependencies:
@@ -6835,6 +6847,8 @@ snapshots:
   tslib@2.5.2: {}
 
   twobj@2.5.6: {}
+
+  twobj@2.6.0: {}
 
   type-check@0.4.0:
     dependencies:
