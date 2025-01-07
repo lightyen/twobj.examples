@@ -57,6 +57,10 @@ const ctx = createContext(
 	}),
 )
 
-console.log(ctx.getColorUtilities())
+// console.log(ctx.getColorUtilities())
 
-console.log(ctx.getArbitraryVariants())
+// console.log(ctx.getArbitraryVariants())
+
+console.log(ctx.css("text-[#4B5]"))
+console.log(ctx.css("text-[#4B5a]"))
+console.log(ctx.css("text-[#4B5563FF]/12"))
